@@ -2,8 +2,9 @@
   "name": "ignaciopicun.com",
   "version": "0.0.1",
   "scripts": {
-    "start": "next",
-    "lint": "eslint"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "description": "Ignacio Picun personal blog and portfolio",
   "main": "index.js",
