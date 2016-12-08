@@ -1,5 +1,8 @@
 import React from 'react'
 
-export default () =>
-  <div>Hello world!</div>
+import Page from '../layouts/page'
 
+export default () =>
+  <Page>
+    <h1>Hello world</h1>
+  </Page>
