@@ -4,11 +4,9 @@ import Page from '../layouts/page'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-import Me from '../components/me'
-
 export default () =>
   <Page>
     <Header />
-    <Me />
+    <h1>Blog</h1>
     <Footer />
   </Page>
