@@ -4,7 +4,7 @@ import css from 'next/css'
 export default () =>
   <img
     className={img}
-    src='static/images/me.jpg'
+    src='/static/images/me.jpg'
     alt='Ignacio Picun photo'
     height={60}
   />

@@ -14,7 +14,7 @@ const PageHead = ({children}) =>
       href='https://necolas.github.io/normalize.css/5.0.0/normalize.css'
       rel='stylesheet' />
     <link
-      href='static/main.css'
+      href='/static/main.css'
       rel='stylesheet' />
     <script src='https://use.fontawesome.com/5ff672ace4.js' />
 

@@ -13,7 +13,7 @@ const footer = css({
   justifyContent: 'center',
   fontSize: '14px',
   margin: '60px 0',
-  '& a': {
+  '& nav a': {
     color: '#aaaaaa'
   }
 })

@@ -1,17 +1,19 @@
 import React from 'react'
 import css from 'next/css'
 
-import Page from '../layouts/page'
+import Page from '../../layouts/page'
 
-import Me from '../components/me'
-import Description from '../components/description'
+import Me from '../../components/me'
 
 export default () =>
   <Page>
 
     <section className={me}>
       <Me />
-      <Description />
+
+      {/* BLOG POSTS */}
+
+      {/* END BLOG POSTS */}
     </section>
 
   </Page>
