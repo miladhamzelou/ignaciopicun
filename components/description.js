@@ -20,7 +20,7 @@ export default () =>
       {' '}Startups, Analytics and Big Data among others topics.
     </p>
     <p>
-      When I'm not hacking a new app or investigating on any new technology,
+      When I'm not coding a new app or investigating on any new technology,
       {' '}I love playing the bass or cycling around.
     </p>
   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import css from 'next/css'
 
 import Avatar from './avatar'
-import Nav from '../nav'
+import Nav from './nav'
 
 export default () =>
   <header className={header}>

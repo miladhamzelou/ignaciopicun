@@ -11,6 +11,7 @@ export default () =>
 
 const img = css({
   borderRadius: '1000px',
+  zIndex: '10',
   transition: 'transform 160ms',
   ':hover, :hover:focus': {
     transform: 'scale(3) translateX(14px) translateY(5px)',
