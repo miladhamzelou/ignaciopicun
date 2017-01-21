@@ -47,9 +47,16 @@ class Nav extends Component {
             </a>
           </li>
           <li>
+            <a href='https://www.linkedin.com/in/ignaciopicun' target='_blank'>
+              /
+              <span className='show-big'><Icon name='linkedin' /></span>
+              <span className='show-small'>linkedin</span>
+            </a>
+          </li>
+          <li>
             <a href='mailto:picunignacio@gmail.com'>
               <span className='show-big'><Icon name='envelope-open-o' /></span>
-              <span className='show-small'>/email</span>
+              <span className='show-small'>/email_me</span>
             </a>
           </li>
         </ul>
