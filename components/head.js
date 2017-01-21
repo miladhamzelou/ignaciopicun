@@ -8,7 +8,7 @@ const PageHead = ({children}) =>
       name='viewport'
       content='width=device-width, initial-scale=1' />
     <link rel='shortcut icon'
-      href='favicon.ico' />
+      href='static/favicon.ico' />
     <link
       href='https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Mono:300,400'
       rel='stylesheet' />
