@@ -17,7 +17,7 @@ export default () =>
     <p>
       I've been developing <em>Websites</em> and <em>Applications</em>
       {' '}for 4 years. And Besides coding, I love all Internet things like
-      {' '}Startups, Analytics and Big Data among others topics.
+      {' '}Analytics and Big Data among others topics.
     </p>
     <p>
       When I'm not coding a new app or investigating on any new technology,

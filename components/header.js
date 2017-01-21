@@ -13,6 +13,8 @@ export default () =>
 const header = css({
   display: 'flex',
   padding: '40px 15px',
+  maxWidth: '920px',
+  margin: '0 auto',
   alignItems: 'center',
   justifyContent: 'space-between'
 })

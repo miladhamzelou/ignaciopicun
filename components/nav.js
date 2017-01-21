@@ -30,8 +30,8 @@ class Nav extends Component {
           <Icon name='bars' />
         </button>
         <ul className={`${this.state.open ? 'open' : ''}`}>
-          {/* <li><Link href='/'>/home</Link></li> */}
-          {/* <li><Link href='/blog'>/blog</Link></li> */}
+          <li><Link href='/'>/home</Link></li>
+          <li><Link href='/resume'>/resume</Link></li>
           <li>
             <a href='https://twitter.com/ignaciopicun' target='_blank'>
               /
