@@ -57,7 +57,7 @@ const resume = css({
       },
       '@media(min-width: 768px)': {
         paddingRight: '30px',
-        minWidth: '268px',
+        minWidth: '270px',
         textAlign: 'right'
       }
     },
