@@ -4,7 +4,7 @@ import css from 'next/css'
 export default () =>
   <div className={me}>
     <h1>Ignacio Picun</h1>
-    <h2>Freelance Web Developer</h2>
+    <h2>Creative Web Developer</h2>
   </div>
 
 const me = css({

@@ -2,8 +2,10 @@ import React from 'react'
 import css from 'next/css'
 
 export default () =>
-  <section className={`section ${experience}`}>
-    <h1 className='section-title'>Experience</h1>
+  <section className='section'>
+    <div className='section-title'>
+      <h1>Experience</h1>
+    </div>
     <div className='section-content'>
       <ul>
         <li className='job'>
@@ -50,14 +52,3 @@ export default () =>
     </div>
   </section>
 
-const experience = css({
-  '& .job': {
-    '& .company': {
-      fontSize: '19px',
-      '& .dates': {
-        fontSize: '12px',
-        color: 'rgba(0, 0, 0, 0.4)'
-      }
-    }
-  }
-})

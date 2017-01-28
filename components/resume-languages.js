@@ -2,7 +2,9 @@ import React from 'react'
 
 export default () =>
   <section className='section'>
-    <h1 className='section-title'>Languages</h1>
+    <div className='section-title'>
+      <h1>Languages</h1>
+    </div>
     <div className='section-content'>
       <ul>
         <li>

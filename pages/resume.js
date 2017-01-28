@@ -3,6 +3,8 @@ import css from 'next/css'
 import Page from '../layouts/page'
 import Me from '../components/me'
 import Experience from '../components/resume-experience'
+import Projects from '../components/resume-projects'
+import Lab from '../components/resume-lab'
 import Education from '../components/resume-education'
 import Languages from '../components/resume-languages'
 
@@ -13,6 +15,8 @@ export default () =>
         <Me />
       </section>
       <Experience />
+      <Projects />
+      <Lab />
       <Education />
       <Languages />
     </div>
@@ -37,14 +41,24 @@ const resume = css({
       flexDirection: 'column'
     },
     '& .section-title': {
-      marginTop: 0,
+      '& h1': {
+        marginTop: 0,
+        '@media(max-width: 767px)': {
+          textDecoration: 'underline',
+          marginRight: '15px',
+          display: 'inline-block'
+        }
+      },
+      '& p': {
+        color: '#777',
+        '@media(max-width: 767px)': {
+          display: 'inline-block'
+        }
+      },
       '@media(min-width: 768px)': {
         paddingRight: '30px',
-        minWidth: '220px',
+        minWidth: '268px',
         textAlign: 'right'
-      },
-      '@media(max-width: 767px)': {
-        textDecoration: 'underline'
       }
     },
     '& .section-content': {

@@ -2,7 +2,9 @@ import React from 'react'
 
 export default () =>
   <section className='section'>
-    <h1 className='section-title'>Education</h1>
+    <div className='section-title'>
+      <h1>Education</h1>
+    </div>
     <div className='section-content'>
       <h2 className='school'>
         Instituto Tecnologico Superior
