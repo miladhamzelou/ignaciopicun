@@ -8,8 +8,10 @@ import Lab from '../components/resume-lab'
 import Education from '../components/resume-education'
 import Languages from '../components/resume-languages'
 
+const description = 'Ignacio Picun Creative Front End Web Developer Resume where he lists all his work and experience.'
+
 export default () =>
-  <Page>
+  <Page description={description}>
     <div className={resume}>
       <section className={me}>
         <Me />
@@ -75,15 +77,21 @@ const resume = css({
         }
       },
       '& h2': {
+        display: 'inline',
         marginTop: 0,
-        fontSize: '19px',
-        '& small': {
-          fontSize: '12px',
-          color: 'rgba(0, 0, 0, 0.4)'
-        }
+        fontSize: '19px'
       },
       '& h3': {
         fontSize: '17px'
+      },
+      '& .add-text': {
+        fontSize: '12px',
+        color: 'rgba(0, 0, 0, 0.4)'
+      },
+      '& .add-info': {
+        marginTop: '15px',
+        fontWeight: 'normal',
+        display: 'block'
       }
     }
   }

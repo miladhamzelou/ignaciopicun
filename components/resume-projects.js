@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () =>
-  <div className='section'>
+  <section className='section'>
     <div className='section-title'>
       <h1>Projects</h1>
       <p>Some projects I've worked on</p>
@@ -27,5 +27,5 @@ export default () =>
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 

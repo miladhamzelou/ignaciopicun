@@ -2,8 +2,8 @@ import React, { PropTypes } from 'react'
 
 import Main from './main'
 
-const Page = ({children}) =>
-  <Main>
+const Page = ({children, description}) =>
+  <Main description={description}>
 
     {children}
 

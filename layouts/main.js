@@ -5,9 +5,9 @@ import Head from '../components/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const Main = ({children}) =>
+const Main = ({children, description}) =>
   <div className={page}>
-    <Head />
+    <Head description={description} />
     <Header />
 
     {children}

@@ -1,12 +1,18 @@
 import React, { PropTypes } from 'react'
 import Head from 'next/head'
 
-const PageHead = ({children}) =>
+const PageHead = ({children, description}) =>
   <Head>
-    <title>Ignacio Picun / Developer</title>
+    <title>Ignacio Picun / Front End Web Developer</title>
     <meta
       name='viewport'
       content='width=device-width, initial-scale=1' />
+    <meta
+      name='description'
+      content={description} />
+    <meta
+      name='keywords'
+      content='Web Designer, Front End, CSS, JavaScript, HTML, Development, Developer, EcmaScript' />
     <link rel='shortcut icon'
       href='static/favicon.ico' />
     <link
@@ -25,7 +31,8 @@ const PageHead = ({children}) =>
   </Head>
 
 PageHead.propTypes = {
-  children: PropTypes.oneOfType([ PropTypes.node, PropTypes.element ])
+  children: PropTypes.oneOfType([ PropTypes.node, PropTypes.element ]),
+  description: PropTypes.string
 }
 
 export default PageHead

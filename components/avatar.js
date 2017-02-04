@@ -5,7 +5,7 @@ export default () =>
   <img
     className={img}
     src='/static/images/me.jpg'
-    alt='Ignacio Picun photo'
+    alt='A photo of Ignacio Picun'
     height={60}
   />
 

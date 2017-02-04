@@ -9,11 +9,11 @@ export default () =>
       <ul>
         <li>
           <h2>English</h2>
-          <div>Professional Proficiency</div>
+          <div className='add-info'>Professional Proficiency</div>
         </li>
         <li>
           <h2>Spanish</h2>
-          <div>Native</div>
+          <div className='add-info'>Native</div>
         </li>
       </ul>
     </div>
