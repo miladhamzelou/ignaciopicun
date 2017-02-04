@@ -11,7 +11,7 @@ export default () =>
         {' '}
         <small className='dates'>2010 - 2015</small>
       </h2>
-      <h3 className='topic'>Computer Science</h3>
+      <h3 className='topic' title='Computer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.'>Computer Science</h3>
       <div className='location'>Buceo, Montevideo, Uruguay</div>
     </div>
   </section>
