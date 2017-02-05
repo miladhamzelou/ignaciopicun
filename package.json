@@ -12,6 +12,7 @@
     "dev:start": "next",
     "start": "next start",
     "build": "next build",
+    "deploy": "now --alias",
     "lint": "eslint \"**/*.js\""
   },
   "dependencies": {
