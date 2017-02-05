@@ -1,5 +1,5 @@
 import React from 'react'
-import css from 'next/css'
+import { css } from 'glamor'
 
 import Page from '../layouts/page'
 

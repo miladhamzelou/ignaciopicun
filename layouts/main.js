@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import css from 'next/css'
+import { css } from 'glamor'
 
 import Head from '../components/head'
 import Header from '../components/header'
@@ -16,7 +16,8 @@ const Main = ({children, description}) =>
   </div>
 
 Main.propTypes = {
-  children: PropTypes.oneOfType([ PropTypes.element, PropTypes.node ])
+  children: PropTypes.oneOfType([ PropTypes.element, PropTypes.node ]),
+  description: PropTypes.string
 }
 
 const page = css({

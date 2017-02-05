@@ -1,12 +1,6 @@
 {
   "name": "ignaciopicun.com",
   "version": "0.0.1",
-  "scripts": {
-    "dev:start": "next",
-    "start": "next start",
-    "build": "next build",
-    "lint": "eslint \"**/*.js\""
-  },
   "description": "Ignacio Picun personal blog and portfolio",
   "repository": {
     "url": "https://github.com/ignaciopicun/ignaciopicun.com",
@@ -14,8 +8,15 @@
   },
   "author": "Ignacio Picun <picunignacio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:start": "next",
+    "start": "next start",
+    "build": "next build",
+    "lint": "eslint \"**/*.js\""
+  },
   "dependencies": {
-    "next": "^1.2.3",
+    "glamor": "^2.20.22",
+    "next": "2.0.0-beta.23",
     "react-fontawesome": "^1.5.0"
   },
   "devDependencies": {

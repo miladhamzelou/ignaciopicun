@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import css from 'next/css'
+import { css } from 'glamor'
 import Link from 'next/link'
 import Icon from 'react-fontawesome'
 
@@ -30,8 +30,8 @@ class Nav extends Component {
           <Icon name='bars' />
         </button>
         <ul className={`${this.state.open ? 'open' : ''}`}>
-          <li><Link href='/'>/home</Link></li>
-          <li><Link href='/resume'>/resume</Link></li>
+          <li><Link href='/'><a>/home</a></Link></li>
+          <li><Link href='/resume'><a>/resume</a></Link></li>
           <li>
             <a href='https://twitter.com/ignaciopicun' target='_blank'>
               /

@@ -10,7 +10,8 @@ const Page = ({children, description}) =>
   </Main>
 
 Page.propTypes = {
-  children: PropTypes.oneOfType([ PropTypes.element, PropTypes.node ])
+  children: PropTypes.oneOfType([ PropTypes.element, PropTypes.node ]),
+  description: PropTypes.string
 }
 
 export default Page
