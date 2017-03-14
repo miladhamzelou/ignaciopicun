@@ -40,7 +40,7 @@ class Nav extends Component {
             </a>
           </li>
           <li>
-            <a href='https://github.com/ignaciopicun' target='_blank'>
+            <a href='https://github.com/igpc' target='_blank'>
               /
               <span className='show-big'><Icon name='github' /></span>
               <span className='show-small'>github</span>
